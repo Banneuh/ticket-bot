@@ -1,14 +1,14 @@
 {
-  "clientId": "",
-  "token": "",
+  "clientId": "process.env.ID",
+  "token": "process.env.TOKEN",
 
-  "parentOpened": "",
-  "Category1": "",
-  "Category2": "",
-  "Category3": "",
+  "parentOpened": "process.env.CATEGORIE",
+  "Category1": "process.env.NAME1",
+  "Category2": "process.env.NAME2",
+  "Category3": "process.env.NAME3",
 
-  "roleSupport": "",
+  "roleSupport": "process.env.SUPPORT",
   
-  "logsTicket": "",
-  "ticketChannel": ""
+  "logsTicket": "process.env.LOGS",
+  "ticketChannel": "process.env.CHANNEL"
 }
